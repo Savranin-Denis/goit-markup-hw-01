@@ -1,0 +1,36 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1128px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.logo {
+  margin-right: 76px;
+}
+
+.nav-top {
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ul-top {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.ul-top-2 {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.link-nav {
+  text-decoration: none;
+}

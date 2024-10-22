@@ -9,6 +9,26 @@ body {
   padding: 0 15px;
 }
 
+.container-2 {
+  max-width: 1128px;
+  margin: 0 auto;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.container-3 {
+  max-width: 1128px;
+}
+
+.ideas {
+  width: calc((1128px / 4) - (24px * 3) / 4);
+}
+
 .logo {
   text-decoration: none;
   display: flex;
@@ -40,6 +60,13 @@ body {
   color: #2e2f42;
 }
 
+.studio-2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #f4f4fd;
+}
+
 .ul-top {
   list-style: none;
   display: flex;
@@ -69,7 +96,106 @@ body {
   color: #2e2f42;
 }
 
-.nav-footer {
-  height: 312px;
+.main-page {
+  width: 100%;
+  background: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  text-align: center;
+}
+
+.main-text {
+  font-weight: 700;
+  font-size: 56px;
+  color: #fff;
+}
+
+.form-btn {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  padding: 16px 32px;
+  cursor: pointer;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+}
+
+.ideas-main {
+  font-weight: 500;
+  font-size: 20px;
+  color: #2e2f42;
+}
+
+.ideas-mini {
+  font-weight: 400;
+  font-size: 16px;
+  color: #434455;
+}
+
+.autors {
+  padding-top: 48px;
+  padding-bottom: 100px;
+  text-align: center;
+  width: 100%;
+  background: #f4f4fd;
+}
+
+.wrapper {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  width: 1128px;
+  position: relative;
+}
+
+.autors-name {
+  margin-bottom: 72px;
+  font-weight: 700;
+  font-size: 36px;
+  color: #2e2f42;
+}
+
+.autors-item {
+  width: calc((1128px / 4) - (24px * 3) / 4);
+}
+
+.autors-item-2 {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.autors-item-3 {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #434455;
+}
+
+.footer-st {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: 312px;
+  text-align: center;
+  width: 100%;
+  background: #2e2f42;
+}
+
+.footer-page {
+  width: 100%;
+  background: #2e2f42;
+  height: 312px;
+}
+
+.footer-mini {
+  font-weight: 400;
+  font-size: 16px;
+  color: #f4f4fd;
 }

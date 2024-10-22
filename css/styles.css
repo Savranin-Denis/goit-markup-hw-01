@@ -71,6 +71,6 @@ body {
 
 .nav-footer {
   height: 312px;
-  display: flex;
   align-items: center;
+  vertical-align: middle;
 }
